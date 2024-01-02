@@ -1,0 +1,42 @@
+// prop drilling 
+
+useContext => solve prop drilling 
+
+install ReacTree 
+
+Provider pattern 
+
+Context Api 
+
+
+-----------------------------------------------------------
+
+
+createContext => Provider => value prop 
+
+
+
+folder context => 
+
+
+export const GeneralContext = createContext();
+
+// children prop (required for component wrapping )
+// usually wrap App component  
+
+const GeneralContextProvider = ({ children }) => {
+  const [openDrawer, setOpenDrawer] = useState(false);
+
+  const toggleDrawer = () => {
+    setOpenDrawer(!openDrawer);
+  };
+
+  return (
+    <div>
+      <GeneralContext.Provider value={{ openDrawer, toggleDrawer }}>
+        {children}
+      </GeneralContext.Provider>
+    </div>
+  );
+};
+
