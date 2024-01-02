@@ -1,8 +1,15 @@
-# React + Vite
+## Tech Stack 
+- React 
+- JavaScript
+- Tailwind
+- Flowbite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Demo 
+https://invoice-app-react-tailwind.netlify.app/
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![invoice1](https://github.com/Okkar25/Invoice-App-React/assets/118409114/2feef002-d87b-4ebb-8a5d-79973d49ef9d)
+![invoice2](https://github.com/Okkar25/Invoice-App-React/assets/118409114/46ba7c51-ec3e-49ad-b09d-b5d57d144793)
+![invoice3](https://github.com/Okkar25/Invoice-App-React/assets/118409114/adf99980-960c-498a-960b-ffef037331a8)
+
+
